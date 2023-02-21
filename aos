@@ -1,0 +1,33 @@
+Step 1: npm i aos
+
+
+
+Step 2: in app.js
+
+// import AOS
+import Aos from 'aos';
+import 'aos/dist/aos.css';
+
+const App = () => {
+
+  // aos initialization
+  Aos.init({
+    duration: 1800,
+    offset: 0,
+  });
+
+  return (
+   .
+   .
+   .
+   .
+   .
+   .
+  )
+}
+
+export default App
+
+
+
+Step 3: data-aos="fade-down" data-aos-delay="400"
